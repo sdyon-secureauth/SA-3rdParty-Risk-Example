@@ -4,7 +4,7 @@ var app = express();
 
 
 app.get("/api/user/:username/risk", (req, res, next) => {
-    if(req.params.username == "Bob") {
+    if(req.params.username.toLocaleLowerCase() === "Bob".toLocaleLowerCase()) {
         //console.log(req.params);
         res.json({"riskScore": 95});
     }
