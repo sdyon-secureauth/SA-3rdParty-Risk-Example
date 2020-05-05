@@ -4,7 +4,8 @@
   "description": "3rd party risk example",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "node index.js"
   },
   "author": "Sean Dyon",
   "license": "MIT",
