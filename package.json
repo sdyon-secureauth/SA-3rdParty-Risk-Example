@@ -1,0 +1,14 @@
+{
+  "name": "3rdp_risk_example",
+  "version": "1.0.0",
+  "description": "3rd party risk example",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Sean Dyon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
